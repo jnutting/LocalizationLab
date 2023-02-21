@@ -2,7 +2,7 @@
 //  LocalizationLabUITestsLaunchTests.swift
 //  LocalizationLabUITests
 //
-//  Created by JN on 2023-1-31.
+//  Created by Jack Nutting on 2023-1-31.
 //
 
 import XCTest

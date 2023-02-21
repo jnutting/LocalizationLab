@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046455BA29A4F6AA00553257 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 046455B929A4F6AA00553257 /* Readme.md */; };
 		046ED6D02989231700AD88D9 /* LocalizationLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6CF2989231700AD88D9 /* LocalizationLabApp.swift */; };
 		046ED6D22989231700AD88D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6D12989231700AD88D9 /* ContentView.swift */; };
 		046ED6D42989231900AD88D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ED6D32989231900AD88D9 /* Assets.xcassets */; };
@@ -14,6 +15,15 @@
 		046ED6E12989231900AD88D9 /* LocalizationLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6E02989231900AD88D9 /* LocalizationLabTests.swift */; };
 		046ED6EB2989231900AD88D9 /* LocalizationLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6EA2989231900AD88D9 /* LocalizationLabUITests.swift */; };
 		046ED6ED2989231900AD88D9 /* LocalizationLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6EC2989231900AD88D9 /* LocalizationLabUITestsLaunchTests.swift */; };
+		046ED6FA2989235300AD88D9 /* LocalizedStringsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6F92989235300AD88D9 /* LocalizedStringsRepository.swift */; };
+		046ED6FC298BD12A00AD88D9 /* EmbeddedStrings.json in Resources */ = {isa = PBXBuildFile; fileRef = 046ED6FB298BD12A00AD88D9 /* EmbeddedStrings.json */; };
+		046ED6FE298BDEC700AD88D9 /* XCTestCase+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6FD298BDEC700AD88D9 /* XCTestCase+Publisher.swift */; };
+		046ED700298BDF9200AD88D9 /* LocalizedStringsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED6FF298BDF9200AD88D9 /* LocalizedStringsViewModel.swift */; };
+		046ED74429914DB800AD88D9 /* OnDeviceStringsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED74329914DB800AD88D9 /* OnDeviceStringsRepository.swift */; };
+		046ED7462991508D00AD88D9 /* RemoteStringsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED7452991508D00AD88D9 /* RemoteStringsRepository.swift */; };
+		046ED7482993D08F00AD88D9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED7472993D08F00AD88D9 /* Utilities.swift */; };
+		046ED74A2993DD2400AD88D9 /* LocalizedStringsArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED7492993DD2400AD88D9 /* LocalizedStringsArchiver.swift */; };
+		046ED74D299BD80400AD88D9 /* DataArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED74C299BD80400AD88D9 /* DataArchiver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046455B929A4F6AA00553257 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		046ED6CC2989231600AD88D9 /* LocalizationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046ED6CF2989231700AD88D9 /* LocalizationLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationLabApp.swift; sourceTree = "<group>"; };
 		046ED6D12989231700AD88D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,16 @@
 		046ED6E62989231900AD88D9 /* LocalizationLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046ED6EA2989231900AD88D9 /* LocalizationLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationLabUITests.swift; sourceTree = "<group>"; };
 		046ED6EC2989231900AD88D9 /* LocalizationLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		046ED6F92989235300AD88D9 /* LocalizedStringsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsRepository.swift; sourceTree = "<group>"; };
+		046ED6FB298BD12A00AD88D9 /* EmbeddedStrings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmbeddedStrings.json; sourceTree = "<group>"; };
+		046ED6FD298BDEC700AD88D9 /* XCTestCase+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Publisher.swift"; sourceTree = "<group>"; };
+		046ED6FF298BDF9200AD88D9 /* LocalizedStringsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsViewModel.swift; sourceTree = "<group>"; };
+		046ED74329914DB800AD88D9 /* OnDeviceStringsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceStringsRepository.swift; sourceTree = "<group>"; };
+		046ED7452991508D00AD88D9 /* RemoteStringsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStringsRepository.swift; sourceTree = "<group>"; };
+		046ED7472993D08F00AD88D9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		046ED7492993DD2400AD88D9 /* LocalizedStringsArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsArchiver.swift; sourceTree = "<group>"; };
+		046ED74B2993E5F200AD88D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		046ED74C299BD80400AD88D9 /* DataArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataArchiver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,7 @@
 		046ED6C32989231600AD88D9 = {
 			isa = PBXGroup;
 			children = (
+				046455B929A4F6AA00553257 /* Readme.md */,
 				046ED6CE2989231600AD88D9 /* LocalizationLab */,
 				046ED6DF2989231900AD88D9 /* LocalizationLabTests */,
 				046ED6E92989231900AD88D9 /* LocalizationLabUITests */,
@@ -94,9 +116,12 @@
 		046ED6CE2989231600AD88D9 /* LocalizationLab */ = {
 			isa = PBXGroup;
 			children = (
+				046ED74B2993E5F200AD88D9 /* Info.plist */,
 				046ED6CF2989231700AD88D9 /* LocalizationLabApp.swift */,
 				046ED6D12989231700AD88D9 /* ContentView.swift */,
+				046ED6FB298BD12A00AD88D9 /* EmbeddedStrings.json */,
 				046ED6D32989231900AD88D9 /* Assets.xcassets */,
+				046ED74E299BDB3400AD88D9 /* LocalizedStringsManagement */,
 				046ED6D52989231900AD88D9 /* Preview Content */,
 			);
 			path = LocalizationLab;
@@ -114,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				046ED6E02989231900AD88D9 /* LocalizationLabTests.swift */,
+				046ED6FD298BDEC700AD88D9 /* XCTestCase+Publisher.swift */,
 			);
 			path = LocalizationLabTests;
 			sourceTree = "<group>";
@@ -125,6 +151,20 @@
 				046ED6EC2989231900AD88D9 /* LocalizationLabUITestsLaunchTests.swift */,
 			);
 			path = LocalizationLabUITests;
+			sourceTree = "<group>";
+		};
+		046ED74E299BDB3400AD88D9 /* LocalizedStringsManagement */ = {
+			isa = PBXGroup;
+			children = (
+				046ED74C299BD80400AD88D9 /* DataArchiver.swift */,
+				046ED7492993DD2400AD88D9 /* LocalizedStringsArchiver.swift */,
+				046ED6F92989235300AD88D9 /* LocalizedStringsRepository.swift */,
+				046ED6FF298BDF9200AD88D9 /* LocalizedStringsViewModel.swift */,
+				046ED74329914DB800AD88D9 /* OnDeviceStringsRepository.swift */,
+				046ED7452991508D00AD88D9 /* RemoteStringsRepository.swift */,
+				046ED7472993D08F00AD88D9 /* Utilities.swift */,
+			);
+			path = LocalizedStringsManagement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046455BA29A4F6AA00553257 /* Readme.md in Resources */,
 				046ED6D72989231900AD88D9 /* Preview Assets.xcassets in Resources */,
 				046ED6D42989231900AD88D9 /* Assets.xcassets in Resources */,
+				046ED6FC298BD12A00AD88D9 /* EmbeddedStrings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046ED7462991508D00AD88D9 /* RemoteStringsRepository.swift in Sources */,
+				046ED74429914DB800AD88D9 /* OnDeviceStringsRepository.swift in Sources */,
+				046ED74D299BD80400AD88D9 /* DataArchiver.swift in Sources */,
+				046ED7482993D08F00AD88D9 /* Utilities.swift in Sources */,
 				046ED6D22989231700AD88D9 /* ContentView.swift in Sources */,
 				046ED6D02989231700AD88D9 /* LocalizationLabApp.swift in Sources */,
+				046ED6FA2989235300AD88D9 /* LocalizedStringsRepository.swift in Sources */,
+				046ED74A2993DD2400AD88D9 /* LocalizedStringsArchiver.swift in Sources */,
+				046ED700298BDF9200AD88D9 /* LocalizedStringsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046ED6E12989231900AD88D9 /* LocalizationLabTests.swift in Sources */,
+				046ED6FE298BDEC700AD88D9 /* XCTestCase+Publisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +470,7 @@
 				DEVELOPMENT_TEAM = P4KHK354DV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalizationLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +500,7 @@
 				DEVELOPMENT_TEAM = P4KHK354DV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalizationLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
